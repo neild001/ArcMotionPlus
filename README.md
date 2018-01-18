@@ -114,4 +114,3 @@ You can see the ArcMotionPlus and CubicBezierArc classes working in the sample a
   See the License for the specific language governing permissions and
   limitations under the License.
 ```
-n
