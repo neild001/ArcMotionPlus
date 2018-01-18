@@ -7,6 +7,7 @@ The ArcMotionPlus describes a curve that is a section of a circle between two po
 
 
 ![Scheme](raw/arcs.png)
+
 <div align="center">
   <img height="200px" src="raw/arcs.png"/>
 </div>
@@ -87,6 +88,9 @@ Now add a library dependency (remember to check for latest release)
 # Sample Project
 
 You can see the ArcMotionPlus and CubicBezierArc classes working in the sample application. Just check out the Android studio sample project. The sample app will let you explore what can be done with these classes. 
+
+
+![Scheme](raw/app_examples.png)
 
 <div align="center">
   <img height="400px" src="raw/app_examples.png"/>
