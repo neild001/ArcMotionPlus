@@ -6,7 +6,7 @@ ArcMotionPlus
 The ArcMotionPlus describes a curve that is a section of a circle between two points. The aim of the ArcMotionPlus lib is to provide an easy to use, robust and more configurable version of the Android ArcMotion class. The ArcMotionPlus class takes one parameter to describe the angle of the arc between a start and end point, and it also has a parameter that allows this arc to be reflected through the line that joins the start and end points. For example if we have two points on a horizontal line, by reflecting the arc we can determine if it goes above or below the line. The ArcMotionPlus class makes use of the CubicBezierArc class to calculate controls points for a cubic bezier. The CubicBezierArc class can also be used to generate paths for use in an Android Canvas or ObjectAnimators.
 
 <div align="center">
-  <img height="200px" src="raw/arcs.png"/>
+  <img height="200px" src="ArcMotionPlus/raw/arcs.png"/>
 </div>
 
 
