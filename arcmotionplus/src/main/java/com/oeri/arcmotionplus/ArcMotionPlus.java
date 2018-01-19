@@ -115,7 +115,7 @@ public class ArcMotionPlus extends PathMotion {
 
     @Override
     public Path getPath(float startX, float startY, float endX, float endY) {
-        float controlP1X, controlP1Y, controlP2x, controlP2Y;
+        float controlP1X, controlP1Y, controlP2X, controlP2Y;
 
         Path path = new Path();
         path.moveTo(startX, startY);
@@ -125,17 +125,17 @@ public class ArcMotionPlus extends PathMotion {
         if(isReflectedArc) {
             controlP1X = cubicBezierArc.getReflectedControlPoint1().x;
             controlP1Y = cubicBezierArc.getReflectedControlPoint1().y;
-            controlP2x = cubicBezierArc.getReflectedControlPoint2().x;
+            controlP2X = cubicBezierArc.getReflectedControlPoint2().x;
             controlP2Y = cubicBezierArc.getReflectedControlPoint2().y;
 
         } else {
             controlP1X = cubicBezierArc.getControlPoint1().x;
             controlP1Y = cubicBezierArc.getControlPoint1().y;
-            controlP2x = cubicBezierArc.getControlPoint2().x;
+            controlP2X = cubicBezierArc.getControlPoint2().x;
             controlP2Y = cubicBezierArc.getControlPoint2().y;
         }
 
-        path.cubicTo(controlP1X, controlP1Y, controlP2x, controlP2Y, endX, endY);
+        path.cubicTo(controlP1X, controlP1Y, controlP2X, controlP2Y, endX, endY);
         return path;
     }
 }
