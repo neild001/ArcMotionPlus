@@ -15,7 +15,7 @@ ext {
     siteUrl = ''
     gitUrl = ''
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'neild001'
     developerName = 'Neil Davies'
@@ -33,7 +33,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
-        versionName "0.9.0"
+        versionName "v1"
     }
 
     buildTypes {
