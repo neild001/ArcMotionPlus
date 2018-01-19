@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ArcMotionPlus.iml" filepath="$PROJECT_DIR$/ArcMotionPlus.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arcmotionplus/arcmotionplus.iml" filepath="$PROJECT_DIR$/arcmotionplus/arcmotionplus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arcmotionplus/lib_arcmotionplus.iml" filepath="$PROJECT_DIR$/arcmotionplus/lib_arcmotionplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arcmotionplus.iml" filepath="$PROJECT_DIR$/arcmotionplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arcmotionplus/arcmotionplus-arcmotionplus.iml" filepath="$PROJECT_DIR$/arcmotionplus/arcmotionplus-arcmotionplus.iml" />
     </modules>
   </component>
 </project>
