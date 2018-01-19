@@ -8,10 +8,6 @@ The ArcMotionPlus describes a curve that is a section of a circle between two po
 
 ![Scheme](raw/arcs.png)
 
-<div align="center">
-  <img height="200px" src="raw/arcs.png"/>
-</div>
-
 
 # Using the ArcMotionPlus
 
@@ -91,10 +87,6 @@ You can see the ArcMotionPlus and CubicBezierArc classes working in the sample a
 
 
 ![Scheme](raw/app_examples.png)
-
-<div align="center">
-  <img height="400px" src="raw/app_examples.png"/>
-</div>
 
 
 # License
