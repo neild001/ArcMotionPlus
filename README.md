@@ -60,28 +60,15 @@ We can then access the generated control points and reflected controls point lik
 These values can then be used to generate Path objects that can be used in the Android canvas or with ObjectAnimators.  
 ## Adding to your project
 
-This library is not yet released in Maven Central, until then you can add as a library module or use JitPack.io. 
-
-Add remote maven url
-
-```groovy
-    repositories {
-        maven {
-            url "https://jitpack.io"
-        }
-    }
-```
-    
-Now add a library dependency (remember to check for latest release)
+I've linked this library to jcenter, so if you have jcenter declared as a repository in you project build.gradle (which will be the case for most android projects) you can just add the library dependancy in you app build file like this:
 
 ```groovy
     dependencies {
-        compile 'com.github.neild001:ArcMotionplus:v1.0'
+        compile 'com.oeri.arcmotionplus:arcmotionplus:1.0.0'
     }
 ```
 
-
-## Version 1.0
+## Version 1.0.0
 
 * init release
 
