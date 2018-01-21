@@ -60,13 +60,18 @@ I've linked this library to jcenter, so if you have jcenter declared as a reposi
 
 ```groovy
     dependencies {
-        compile 'com.oeri.arcmotionplus:arcmotionplus:1.0.0'
+        compile 'com.oeri.arcmotionplus:arcmotionplus:1.0.1'
     }
 ```
 
 ## Version 1.0.0
 
 * init release
+
+## Version 1.0.1
+
+* Update min sdk to 14 so ArcMotion can be used with support lib version of Transistion framework.
+
 
 # Sample Project
 
