@@ -60,7 +60,7 @@ I've linked this library to jcenter, so if you have jcenter declared as a reposi
 
 ```groovy
     dependencies {
-        compile 'com.oeri.arcmotionplus:arcmotionplus:1.0.1'
+        compile 'com.oeri.arcmotionplus:arcmotionplus:1.0.2'
     }
 ```
 
@@ -70,7 +70,11 @@ I've linked this library to jcenter, so if you have jcenter declared as a reposi
 
 ## Version 1.0.1
 
-* Update min sdk to 14 so ArcMotion can be used with support lib version of Transistion framework.
+* Update min sdk to 14 so ArcMotionPlus can be used with support lib version of Transition framework.
+
+## Version 1.0.2
+
+* Remove uneeded application element from lib Manifest
 
 
 # Sample Project
